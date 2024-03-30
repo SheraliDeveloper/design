@@ -1,0 +1,235 @@
+
+
+/* -------------For Laptop----------- */
+/*767px-991px */
+
+@media (max-width: 991px) {
+
+    .container{
+        width: 95%;
+    }
+
+    .main-header__brand{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-brand__name{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    color: #021017;
+    font-size: 35px;
+    margin-top: 10px ;
+    font-weight: 700;
+    text-transform: capitalize;
+    }
+
+    .main-section__introduction {
+        font-size: 3rem;
+    }
+
+    /* Navigation menu */
+    .main-navigation{
+        display: none;
+    }
+
+    /* .footer__navigation{
+        display: none;;
+    } */
+    /* Main section */
+    .main-section__image{
+        display: none;
+    }
+
+    .main-section > div{
+        width: 100%;
+    }
+
+    /* Statistics section */
+     .statistics{
+        padding-top: 1rem;
+        text-align: center;
+     }
+
+      /* About-me section */
+    .about-me{
+        padding: 1.5rem 0;
+    }
+
+    .about-me img{
+        display: none ;
+    }
+
+
+    /* Services section */
+
+     .services{
+        padding: 1.5rem 0;
+    }
+
+    .services__cards{
+        flex-wrap: wrap;
+    }
+
+    .service-card{
+        flex-basis: 45%;
+        margin-bottom:  1.25rem;
+    }
+
+        /* Clients section */
+    .client-item{
+        flex-wrap: wrap;
+    }
+
+    .client-item__image{
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .client-item__image img{
+         width: 200px;
+        height: 225px;        
+        border-radius: 0 40px 0 40px;
+        box-shadow:-1px 7px 20px 0px rgba(5,54,77,0.2)
+    }
+
+    /* Portfolio section */
+
+    .portfolio-item-3{
+        top: 15.5rem;
+    }
+    
+
+      /* Blog section */
+
+    .blog{
+        padding: 1.5rem 0;
+    }
+
+    .blog-items{
+        flex-wrap: wrap;
+    }
+
+    .blog-item{
+        width: 45%;
+        margin-bottom: 1.25rem;
+    }
+
+    .partners{
+        padding: 1.5rem 0;
+        flex-direction: column;
+    }
+
+    .partner{
+        padding: 0;
+        text-align: center;
+        margin-bottom: .8rem;
+    }
+
+
+}
+
+
+
+
+
+/* ----------For mobile--------------------  */
+/* -----350px-768px------ */
+
+@media (max-width: 768px){
+    /* Main section */
+
+    .main-banner{
+        background: none;
+        min-height: auto;
+    }
+    .main-section__image{
+        display: none
+    }
+
+    .main-section__action{
+        display: none;
+    }
+
+
+    /* Satatistics section */
+
+    .statistics{
+        flex-direction: column;
+    }
+
+    .statistics__item{
+        width: 100%;
+        margin-bottom: 1.25rem;
+       background: #f8faff;
+       text-align: center;
+       padding: 30px 15px;     
+       margin-right: 0;
+       box-sizing: border-box;
+    }
+
+   
+    /* Services section */
+
+   
+    
+    .service-card{
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+
+    }
+
+    .section-title{
+        font-size: 2.5rem;
+    }
+
+
+    /* Portfolio section */
+
+    .portfolio{
+        padding: 1.5rem;
+    }
+
+    .portfolio-item{
+        width: 100%;
+
+    }
+
+    .portfolio-item-2, .portfolio-item-3{
+        position: static;
+    }
+
+    /* Blog section */
+
+    .blog{
+        padding: 1.5rem 0;
+    }
+
+    .blog-item{
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+    }
+    
+    /* Partners section */
+
+    .partners{
+        padding: 1.5rem 0;
+    }
+
+    /* Footer */
+
+    .footer__navigation{
+        display: none ;
+    }
+
+
+}
+
+
